@@ -158,3 +158,162 @@ body {
         transform: translateX(-50%);
     }
 }
+
+
+/* ============ SECTION 1 ============ */
+.info-section {
+    background: #fffaf6;
+    padding: 90px 0;
+}
+
+.image-placeholder {
+    width: 100%;
+    max-width: 260px;
+    height: 200px;
+    background: #eee;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    margin: auto;
+}
+
+.info-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 360px;
+    margin: auto;
+}
+
+/* ============ SECTION 2 ============ */
+.benefits-section {
+    background: #fffaf6;
+    padding: 90px 0;
+}
+
+.benefit-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.benefit-box {
+    border: 1px solid #cdb4ff;
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.benefit-box h6 {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.benefit-box p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.benefit-list {
+    list-style: none;
+    padding: 0;
+}
+
+.benefit-list li {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    padding-left: 20px;
+    position: relative;
+}
+
+.benefit-list li::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    color: #8e5fd7;
+    font-weight: bold;
+}
+
+.big-image-placeholder {
+    width: 100%;
+    max-width: 420px;
+    height: 420px;
+    background: #eee;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    margin: auto;
+}
+
+/* ============ WHY SECTION ============ */
+.why-section {
+    background: #fffaf6;
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    max-width: 620px;
+    margin: 15px auto 0;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Card base */
+.why-card {
+    background: transparent;
+    margin-bottom: 80px;
+}
+
+.why-card h5 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.why-card p {
+    font-size: 0.9rem;
+    color: #666;
+    max-width: 420px;
+}
+
+/* Image placeholders */
+.card-image {
+    background: #eee;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* Different image shapes (important for layout) */
+.large-img {
+    height: 260px;
+}
+
+.tall-img {
+    height: 320px;
+}
+
+.wide-img {
+    height: 220px;
+}
+
+/* Zig-zag spacing */
+.card-2 {
+    margin-top: 100px;
+}
+
+.card-4 {
+    margin-top: 120px;
+}
