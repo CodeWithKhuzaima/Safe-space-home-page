@@ -20,7 +20,7 @@ body {
     background: #ffffff;
     border-radius: 50px;
     padding: 12px 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .floating-navbar .nav-link {
@@ -49,7 +49,7 @@ body {
     min-height: 100vh;
     background: #8e5fd7;
     color: #fff;
-    padding-top: 160px; 
+    padding-top: 160px;
     position: relative;
     overflow: hidden;
 }
@@ -95,7 +95,7 @@ body {
     height: 460px;
     background: #ffffff;
     border-radius: 22px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.3);
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +154,7 @@ body {
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-50%);
     }
@@ -317,3 +318,302 @@ body {
 .card-4 {
     margin-top: 120px;
 }
+
+/* sensoria section */
+.sensoria-section {
+    background: #6a0dad;
+    /* Purple background */
+    color: #fff;
+    position: relative;
+}
+
+.sensoria-logo {
+    font-family: 'Cursive', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sensoria-heading {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.sensoria-text {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.btn-warning {
+    background-color: #ff7f00;
+    border: none;
+    font-weight: bold;
+}
+
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial-section {
+    background: #fafafa;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ---- Decorative blobs (background shapes) ---- */
+.blob {
+    position: absolute;
+    border-radius: 50% 40% 60% 40% / 50% 60% 40% 50%;
+}
+
+/* Top left blob — colorful gradient */
+.blob-top-left {
+    width: 160px;
+    height: 130px;
+    background: linear-gradient(135deg, #a78bfa, #60a5fa, #f472b6);
+    top: 10px;
+    left: 30px;
+    opacity: 0.85;
+    border-radius: 60% 40% 50% 60% / 50% 60% 40% 55%;
+}
+
+/* Bottom left blob */
+.blob-bottom-left {
+    width: 200px;
+    height: 170px;
+    background: linear-gradient(135deg, #818cf8, #c084fc, #38bdf8);
+    bottom: 20px;
+    left: 0px;
+    opacity: 0.8;
+    border-radius: 40% 60% 40% 60% / 60% 40% 60% 40%;
+}
+
+/* Right sphere (shiny ball) */
+.sphere-right {
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(circle at 35% 35%, #a5f3fc, #818cf8, #6366f1);
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+}
+
+/* Bottom right circle outline */
+.circle-outline-1 {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d8b4fe;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.circle-outline-2 {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #93c5fd;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    right: 120px;
+}
+
+.circle-outline-3 {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #f9a8d4;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+/* ---- Main card blob shape ---- */
+.testimonial-card {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+/* The big colorful blob behind text */
+.card-blob {
+    background: linear-gradient(135deg, #fde68a 0%, #fbcfe8 40%, #c4b5fd 80%, #93c5fd 100%);
+    border-radius: 60% 40% 55% 45% / 45% 55% 45% 55%;
+    padding: 50px 45px 45px;
+    position: relative;
+    text-align: center;
+}
+
+.stars {
+    color: #f59e0b;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #3b0764;
+    font-weight: 600;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* Avatar image */
+.avatar-wrap {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 12px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: #e0e7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviewer-name {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #1e1b4b;
+    margin-bottom: 2px;
+}
+
+.reviewer-role {
+    font-size: 0.78rem;
+    color: #6b7280;
+}
+
+
+ /* ===== FAQ SECTION ===== */
+    .faq-section {
+      background: #fafafa;
+      padding: 80px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Left blob decoration */
+    .faq-blob-left {
+      position: absolute;
+      left: -30px;
+      top: 30px;
+      width: 160px;
+      height: 160px;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa, #f472b6);
+      border-radius: 60% 40% 50% 60% / 50% 60% 40% 55%;
+      opacity: 0.85;
+    }
+
+    /* Right character placeholder */
+    .faq-char-right {
+      position: absolute;
+      right: 20px;
+      bottom: 40px;
+      width: 140px;
+      height: 180px;
+      background: linear-gradient(135deg, #fde68a, #fbcfe8, #c4b5fd);
+      border-radius: 50% 50% 40% 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      /*
+        Apna character image daalo:
+        background-image: url('character.png');
+        background-size: cover;
+      */
+    }
+
+    /* ---- Heading ---- */
+    .faq-section h2 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+      color: #1a1a2e;
+      margin-bottom: 12px;
+    }
+    .faq-section .faq-sub {
+      font-size: 0.88rem;
+      color: #888;
+      max-width: 520px;
+      margin: 0 auto 45px;
+      line-height: 1.8;
+    }
+
+    /* ---- Accordion ---- */
+    .faq-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .accordion-item {
+      background: #fff;
+      border: 1.5px solid #e5e7eb !important;
+      border-radius: 12px !important;
+      margin-bottom: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: box-shadow 0.3s;
+    }
+    .accordion-item:hover {
+      box-shadow: 0 4px 20px rgba(107,63,160,0.1);
+    }
+
+    .accordion-button {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 0.92rem;
+      color: #1a1a2e;
+      background: #fff;
+      padding: 18px 22px;
+      border-radius: 12px !important;
+    }
+    .accordion-button:not(.collapsed) {
+      color: #6B3FA0;
+      background: #fff;
+      box-shadow: none;
+      border-bottom: 1.5px dashed #e5e7eb;
+    }
+    .accordion-button:focus { box-shadow: none; }
+
+    /* Custom +/- icons */
+    .accordion-button::after {
+      content: '+';
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #aaa;
+      background-image: none !important;
+      width: auto;
+      height: auto;
+      line-height: 1;
+    }
+    .accordion-button:not(.collapsed)::after {
+      content: '−';
+      color: #6B3FA0;
+    }
+
+    .accordion-body {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.9;
+      padding: 18px 22px;
+    }
